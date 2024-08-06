@@ -73,6 +73,10 @@ body {
   min-height: 100vh;
 }
 
+.hero .spasi {
+  padding: 2rem;
+}
+
 .hero h1,
 .hero h4,
 .hero p {
@@ -348,6 +352,7 @@ body {
 
 .akad strong {
   font-size: 1.5rem;
+  padding: 10px;
 }
 
 .akad .ring p {
@@ -478,10 +483,18 @@ body {
   margin-top: 12rem;
 }
 .story span,
-.gallery span,
-.gifts span {
+.gallery span {
   text-transform: uppercase;
   color: black;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.gifts span {
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
   font-size: 0.9rem;
   letter-spacing: 1px;
   display: block;
@@ -654,24 +667,49 @@ body {
   background-image: url(img/AdatJawaPattern1.webp);
   padding-top: 5rem;
   padding-bottom: 4rem;
+  font-family: Batusa;
   /* margin: 10px; */
   /* border-radius: 2vh; */
 }
 
+.penutup .ungkapan h5 {
+  font-size: 1.5rem;
+  /* margin: 4rem; */
+  color: #666666;
+  padding: 2rem;
+}
+.penutup .ungkapan h1 {
+  color: #292929;
+  font-size: 2rem;
+  /* margin: 3rem; */
+  font-family: Saudagar;
+  font-weight: bolder;
+}
+
+.penutup .ungkapan .hadits {
+  color: #666666;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
 .penutup h4 {
+  color: #666666;
+  margin: 2rem;
+}
+
+.penutup p {
+  color: #292929;
   font-family: Batusa;
-  color: #313131;
 }
 
 .penutup p span {
   font-weight: bold;
-  font-family: Batusa;
 }
 
 .penutup h1 {
   font-family: Saudagar;
   /* font-weight: bolder; */
-  color: #313131;
+  color: #292929;
   font-weight: bolder;
   font-size: 4rem;
 }
